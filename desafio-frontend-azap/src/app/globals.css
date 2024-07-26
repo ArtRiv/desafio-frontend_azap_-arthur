@@ -29,4 +29,10 @@ html, body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .webkit-input-search-none {
+    &::-webkit-search-cancel-button {
+      display: none !important;
+    }
+  }
 }
