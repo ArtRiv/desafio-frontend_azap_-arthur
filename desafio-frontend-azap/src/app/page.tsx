@@ -1,11 +1,13 @@
 import { DefaultPageLayout } from "@/components/default-page-layout";
+import { HeroesList } from "@/components/heroes-list";
+import { getHeroesData } from "@/services/heroes";
 
-export default function Home() {
+export default async function Home() {
+  const heroesData = await getHeroesData();
+
   return (
     <DefaultPageLayout>
-      <div>
-        teste
-      </div>
+      <HeroesList Heroes={heroesData}/>
     </DefaultPageLayout>
   );
 }
