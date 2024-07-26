@@ -1,4 +1,4 @@
-interface Powerstats {
+export interface Powerstats {
     intelligence: number,
     strength: number,
     speed: number,

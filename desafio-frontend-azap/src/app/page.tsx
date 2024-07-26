@@ -1,4 +1,4 @@
-import { DefaultPageLayout } from "@/components/default-page-layout";
+import { DefaultPageLayout } from "@/components/ui/default-page-layout";
 import { HeroesList } from "@/components/heroes-list";
 import { getHeroesData } from "@/services/heroes";
 
